@@ -15,7 +15,12 @@ printf("Escolha uma opcao: ");
 int main(){
 
     exibirMenu();
-    
-
+    int opcao;
+    do {
+    exibirMenu();
+    scanf("%d", &opcao);
+    } while(opcao != 0);
+    printf("Obrigado por usar nosso ATM!\n");
+ 
     return 0;
 }
