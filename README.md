@@ -27,3 +27,32 @@ Este projeto consiste em um sistema de caixa eletrônico (ATM) desenvolvido em l
 - Menu interativo no console
 - Validação de valores e opções do usuário
 - Uso de funções para modularização do sistema
+
+
+## Como Executar no Windows:
+
+Abra o terminal na pasta do projeto e execute o comando abaixo para compilar o programa:
+
+```bash
+gcc main.c -o atm
+```
+
+Após a compilação, execute:
+
+```bash
+atm.exe
+```
+
+É necessário ter o GCC/MinGW instalado e configurado no PATH do Windows.
+
+
+
+## Commits Registrados:
+	- Correção do README;
+	- Criação do arquivo principal;
+	- Adição de biblioteca
+	- Adição de menu;
+	- Adição de loop para interação com usuário;
+	- Adição de continuação do menu;
+	- Adição de Nome do Projeto, Nomes e RMs dos Integrantes, Descrição e Funcionalidades no README;
+	- Adição de Como Executar em Windows e Registro de Commits.
